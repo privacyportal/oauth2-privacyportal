@@ -1,6 +1,7 @@
 # PrivacyPortal Provider for OAuth 2.0 Client
 [![Latest Version](https://img.shields.io/github/release/privacyportal/oauth2-privacyportal.svg?style=flat-square)](https://github.com/privacyportal/oauth2-privacyportal/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![codecov](https://codecov.io/gh/privacyportal/oauth2-privacyportal/graph/badge.svg?token=GQ8I1S49SN)](https://codecov.io/gh/privacyportal/oauth2-privacyportal)
 
 This package provides Privacy-Portal OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
