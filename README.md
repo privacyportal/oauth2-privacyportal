@@ -9,7 +9,7 @@ This package provides Privacy-Portal OAuth 2.0 support for the PHP League's [OAu
 To install, use composer:
 
 ```
-composer require league/oauth2-privacyportal
+composer require privacyportal/oauth2-privacyportal
 ```
 
 ## Usage
