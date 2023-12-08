@@ -57,7 +57,7 @@ class PrivacyPortalTest extends TestCase
 
     public function testScopes(): void
     {
-        $scopeSeparator = ',';
+        $scopeSeparator = ' ';
         $options = ['scope' => [uniqid(), uniqid()]];
         $query = ['scope' => implode($scopeSeparator, $options['scope'])];
         $url = $this->provider->getAuthorizationUrl($options);

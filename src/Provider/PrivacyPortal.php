@@ -36,6 +36,16 @@ class PrivacyPortal extends AbstractProvider
     }
 
     /**
+     * Get scope separator overrides the default comma separator
+     *
+     * @return string
+     */
+    public function getScopeSeparator()
+    {
+        return ' ';
+    }
+
+    /**
      * Get access token url to retrieve token
      *
      * @param array $params
